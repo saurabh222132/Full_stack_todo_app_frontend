@@ -59,7 +59,7 @@ function Component1() {
   };
 
   // sending onload get request to server to get the stored tasks in database
-  useEffect((todos) => {
+  useEffect(() => {
     axios.get(`${baseUrl}/onload`).then((response) => {
       console.log("this array data comes from database", response.data);
       setTodos(response.data);
@@ -74,8 +74,8 @@ function Component1() {
   // };
 
   return (
-    <div className="main ">
-      <h1 style={{ color: "white", fontSize: "60px" }}>Todo app using react</h1>
+    <div className="main container-fluid">
+      <h1 style={{ color: "white", fontSize: "60px" }}>Todo App</h1>
 
       <input
         className="inputField"
