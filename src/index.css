@@ -1,0 +1,38 @@
+.main {
+  text-align: center;
+}
+.todo-list {
+  width: 100%;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  border: 2px solid black;
+  width: 100%;
+}
+.todo {
+  font-size: 30px;
+  overflow: hidden;
+}
+.sn {
+  float: left;
+}
+li {
+  list-style-type: none;
+}
+.deleteButton {
+  display: block;
+  float: right;
+}
+
+.addBtn {
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.inputField {
+  width: 400px;
+  height: 52px;
+}
